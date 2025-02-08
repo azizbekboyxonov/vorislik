@@ -26,10 +26,10 @@ class Gaming(Asus):
         return super().display_info() + f", GPU: {self.gpu}"
 
 
-# Ob'ekt yaratish
+
 tuf_laptop = Tuf("TUF A14", "Ryzen 7", 16, 10)
 gaming_laptop = Gaming("TUF A14 Gaming", "Ryzen 9", 32, "RTX 4060")
 
-# Ma'lumotlarni chiqarish
+
 print(tuf_laptop.display_info())
 print(gaming_laptop.display_info())
