@@ -35,8 +35,8 @@ class GamingPC(Laptop, Desktop):
         return super().display_info() + f", RAM: {self.ram}GB"
 
 
-# Ob'ekt yaratish
+
 gaming_pc = GamingPC("Asus", "Ryzen 9", 8, "RTX 4080", 32)
 
-# Ma'lumotlarni chiqarish
+
 print(gaming_pc.display_info())
